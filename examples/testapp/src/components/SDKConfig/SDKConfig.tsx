@@ -188,7 +188,7 @@ export function SDKConfig() {
                   required
                   onChange={(e) =>
                     handleOnrampPrefill("chainId")({
-                      target: { value: parseInt(e.target.value, 10) },
+                      target: { value: Number.parseInt(e.target.value, 10) },
                     })
                   }
                 />
